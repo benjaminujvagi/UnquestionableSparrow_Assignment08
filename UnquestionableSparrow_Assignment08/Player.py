@@ -1,6 +1,8 @@
 class my_class(object):
     pass
 
+class Player:
+
     def __init__(self, name, position, touchdowns=0):
         self.name = name
         self.position = position
